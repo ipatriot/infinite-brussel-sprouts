@@ -1,0 +1,15 @@
+javascript/jquery eventlistners for forms with submit
+be sure to add alerts in the code as you go to test to see if it works
+be sure to test in the console where things are and see if you can access them.
+"jquery get value from input box" -- google.
+$('#new-options-field').val() oorrrrr $('#new-options-value')[0].value
+when you go through the code make sure to be naming variables, makes it easier for the code to develop.
+In the ajax method that is run by jquery, it looks for {option : new_option}
+      option is the params in the server and new_option is the variable you defined earlier
+url. option?option=blue that is how the new form would look like.
+in the data thing in $ajax it gets sent to the option part in the new_options in the server
+      (the server then takes it to the json, but that donen't mean that the js makes it go to the Json, its the server)
+Read .success function
+Ajax is like a trinagle of information.
+When its running ERB and you want to add variables, you need to change it to the variables that you want.
+      like the variable you just got from the jquery and javascript
